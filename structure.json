@@ -1,0 +1,95 @@
+{
+  "title": "",
+  "bibliography": "",
+  "articles": [
+    {
+      "id": "installation",
+      "title": "Installation",
+      "content_file": "about/installation.md"
+    },
+    {
+      "id": "minplus-functions",
+      "title": "The minplus module's functions",
+      "content_file": "minplus/minplus.md"
+    },
+    {
+      "id": "minplus-classes",
+      "title": "The minplus module's classes",
+      "content_file": "minplus/minplus.md"
+    }
+  ],
+  "sections": [
+    {
+      "id": "minplus-add",
+      "article": "minplus-functions",
+      "title": "minplus.add(*args)",
+      "content_file": "minplus/add.md"
+    },
+    {
+      "id": "minplus-mult",
+      "article": "minplus-functions",
+      "title": "minplus.mult(*args)",
+      "content_file": "minplus/mult.md"
+    },
+    {
+      "id": "minplus-power",
+      "article": "minplus-functions",
+      "title": "minplus.power(a, k)",
+      "content_file": "minplus/power.md"
+    },
+    {
+      "id": "minplus-modulo",
+      "article": "minplus-functions",
+      "title": "minplus.modulo(a, t)",
+      "content_file": "minplus/modulo.md"
+    },
+    {
+      "id": "minplus-add-matrices",
+      "article": "minplus-functions",
+      "title": "minplus.add_matrices(A, B)",
+      "content_file": "minplus/add_matrices.md"
+    },
+    {
+      "id": "minplus-mult-matrices",
+      "article": "minplus-functions",
+      "title": "minplus.mult_matrices(A, B)",
+      "content_file": "minplus/mult_matrices.md"
+    },
+    {
+      "id": "minplus-power-matrix",
+      "article": "minplus-functions",
+      "title": "minplus.power_matrix(A, k)",
+      "content_file": "minplus/power_matrix.md"
+    },
+    {
+      "id": "minplus-modulo-matrices",
+      "article": "minplus-functions",
+      "title": "minplus.modulo_matrices(A, b)",
+      "content_file": "minplus/modulo_matrices.md"
+    },
+    {
+      "id": "minplus-unit-matrix",
+      "article": "minplus-functions",
+      "title": "minplus.unit_matrix(width, height)",
+      "content_file": "minplus/unit_matrix.md"
+    },
+    {
+      "id": "minplus-kleene-star",
+      "article": "minplus-functions",
+      "title": "minplus.kleene_star(A, iterations)",
+      "content_file": "minplus/kleene_star.md"
+    },
+    {
+      "id": "minplus-multivariatepolynomial",
+      "article": "minplus-classes",
+      "title": "minplus.MultivariatePolynomial(coefficients)",
+      "content_file": "minplus/multivariatepolynomial.md"
+    },
+    {
+      "id": "minplus-polynomial",
+      "article": "minplus-classes",
+      "title": "minplus.Polynomial(*coefficients)",
+      "content_file": "minplus/polynomial.md"
+    }
+  ]
+}
