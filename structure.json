@@ -80,6 +80,72 @@
       "content_file": "minplus/kleene_star.md"
     },
     {
+      "id": "minplus-kleene-plus",
+      "article": "minplus-functions",
+      "title": "minplus.kleene_plus(A, iterations)",
+      "content_file": "minplus/kleene_plus.md"
+    },
+    {
+      "id": "minplus-power-algorithm",
+      "article": "minplus-functions",
+      "title": "minplus.power_algorithm(A, x_0, iterations)",
+      "content_file": "minplus/power_algorithm.md"
+    },
+    {
+      "id": "minplus-eigenvalue",
+      "article": "minplus-functions",
+      "title": "minplus.eigenvalue(A)",
+      "content_file": "minplus/eigenvalue.md"
+    },
+    {
+      "id": "minplus-eigenvector",
+      "article": "minplus-functions",
+      "title": "minplus.eigenvector(A)",
+      "content_file": "minplus/eigenvector.md"
+    },
+    {
+      "id": "minplus-domain-validate-domain",
+      "article": "minplus-functions",
+      "title": "minplus.domain.validate_domain(value)",
+      "content_file": "minplus/validate_domain.md"
+    },
+    {
+      "id": "minplus-geometry-project-point",
+      "article": "minplus-functions",
+      "title": "minplus.geometry.project_point(point)",
+      "content_file": "minplus/project_point.md"
+    },
+    {
+      "id": "minplus-geometry-point-type",
+      "article": "minplus-functions",
+      "title": "minplus.geometry.point_type(point, vertices, indexing_start)",
+      "content_file": "minplus/point_type.md"
+    },
+    {
+      "id": "minplus-geometry-tconv",
+      "article": "minplus-functions",
+      "title": "minplus.geometry.tconv(points)",
+      "content_file": "minplus/tconv.md"
+    },
+    {
+      "id": "minplus-geometry-line-segment",
+      "article": "minplus-functions",
+      "title": "minplus.geometry.line_segment(start_point, end_point, sort, unique)",
+      "content_file": "minplus/line_segment.md"
+    },
+    {
+      "id": "minplus-geometry-sort-line-segment",
+      "article": "minplus-functions",
+      "title": "minplus.geometry.sort_line_segment(points, start_point)",
+      "content_file": "minplus/sort_line_segment.md"
+    },
+    {
+      "id": "minplus-geometry-hyperplane-from-apex",
+      "article": "minplus-functions",
+      "title": "minplus.geometry.hyperplane_from_apex(point)",
+      "content_file": "hyperplane_from_apex.md"
+    },
+    {
       "id": "minplus-multivariatepolynomial",
       "article": "minplus-classes",
       "title": "minplus.MultivariatePolynomial(coefficients)",
@@ -90,6 +156,36 @@
       "article": "minplus-classes",
       "title": "minplus.Polynomial(*coefficients)",
       "content_file": "minplus/polynomial.md"
+    },
+    {
+      "id": "minplus-domain-tropical-number",
+      "article": "minplus-classes",
+      "title": "minplus.domain.TropicalNumber()",
+      "content_file": "minplus/tropical_number.md"
+    },
+    {
+      "id": "minplus-geometry-convex-cone",
+      "article": "minplus-classes",
+      "title": "minplus.geometry.ConvexCone(*vectors)",
+      "content_file": "minplus/convex_cone.md"
+    },
+    {
+      "id": "minplus-geometry-hyperplane",
+      "article": "minplus-classes",
+      "title": "minplus.geometry.Hyperplane(*coefficients)",
+      "content_file": "minplus/hyperplane.md"
+    },
+    {
+      "id": "minplus-geometry-abstract-polytope",
+      "article": "minplus-classes",
+      "title": "minplus.geometry.AbstractPolytope(faces_collection, normalize_points)",
+      "content_file": "minplus/abstract_polytope.md"
+    },
+    {
+      "id": "minplus-geometry-polytope2d",
+      "article": "minplus-classes",
+      "title": "minplus.geometry.Polytope2D(*points)",
+      "content_file": "minplus/polytope2d.md"
     }
   ]
 }
